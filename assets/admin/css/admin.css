@@ -1,0 +1,141 @@
+:root{
+    --blue:#0167F3;
+    --black:#081828;
+    --backgroundColor:#ebe7e7;
+    --backgroundColor2: #f9f9f9;
+    --grey: #B8BEBE;
+}
+.logo{
+    display: block;
+    width: 120px;
+    margin-right: 30px;
+}
+.min{
+    outline: var(--blue) solid 1px;
+}
+.min span{
+    color: var(--blue);
+}
+.nav-item svg{
+    margin-top: 11.4px;
+    color: var(--blue);
+    font-weight: lighter;
+}
+.nav-item{
+    margin-right: 14px;
+}
+.navbar-toggler:focus, .navbar-toggler-icon:focus{
+outline: none;
+border: none;
+}
+.navbar{
+    background-color: var(--backgroundColor);
+}
+.statistics{
+    padding: 30px;
+}
+.rectangle-one, .rectangle{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.container .row h3{
+    color: var(--blue);
+}
+.col-md-9{
+    margin: auto auto;
+}
+.rectangle-one .row .col-md-3 img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: auto auto;
+}
+.rectangle-one{
+    width: 30%;
+    height: 50%;
+}
+.base.two{
+    width: 65%;
+    height: 100%;
+}
+.rectangle .icons{
+display: flex;
+justify-content: space-between;
+}
+.rectangle .text{
+    text-align: center;
+}
+.rectangle .text h4{
+    font-size: 1rem;
+
+}
+.rectangle .icons svg:nth-of-type(1){
+    font-size: 2rem;
+}
+.rectangle .percentage{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.rectangle .percentage h6{
+    font-size: 1.5rem;
+}
+.pro .icons svg:nth-of-type(1){
+color: #e29491;
+}
+.pre .icons svg:nth-of-type(1){
+    color: var(--blue);
+}
+.re .icons svg:nth-of-type(1){
+    color: red;
+}
+.percentage svg{
+    margin-top: 6px;
+    font-size: smaller;
+    font-weight: lighter;
+    margin-right: 3px;
+    color: var(--grey);
+}
+.percentage{
+    color: var(--grey);
+}
+.money h2{
+    text-align: center;
+}
+.im .icons svg{
+    color: var(--grey);
+}
+.statistics .container{
+    flex-wrap:wrap;
+}
+.IsTheirProgress .freepik img{
+display: block;
+width: 290px;
+border-radius: 10px;
+}
+.IsTheirProgress .progresses{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 80px;
+}
+.IsTheirProgress .progresses .progress{
+    margin-bottom: 5px;
+}
+.IsTheirProgress .progress-bar{
+    background-color: var(--blue) !important;
+}
+.progresses p{
+    margin: 0;
+}
+.icon-and-text svg{
+    color: var(--blue);
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.cat{
+    border-bottom: 1px solid #B8BEBE;
+    margin-bottom: 10px;
+}
